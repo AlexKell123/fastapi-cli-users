@@ -6,6 +6,8 @@ def init_cli():
     services = init_services('config.json', 'cli')
     return get_cli(*services)
 
+
+app = init_cli()
+
 if __name__ == '__main__':
-    cli = init_cli()
-    cli()
+    app()
