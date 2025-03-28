@@ -6,7 +6,7 @@
 Установка:
 ```shell
 git clone https://github.com/AlexKell123/fastapi-cli-users
-cd fastapi-cli-users
+cd <path>
 pip install -r requirements.txt 
 ```
 
